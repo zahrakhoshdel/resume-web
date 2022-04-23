@@ -13,7 +13,7 @@ class CustomNavBar extends StatelessWidget {
       height: kNavBarHeight,
       width: size.width,
       decoration: const BoxDecoration(
-        color: Colors.black,
+        color: Colors.transparent,
       ),
       child: loadNavBar(context),
     );

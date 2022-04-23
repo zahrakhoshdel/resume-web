@@ -14,7 +14,7 @@ class TabBarOption extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Material(
-      color: Colors.black,
+      color: Colors.transparent,
       child: InkWell(
         onTap: onTapped,
         child: Text(
